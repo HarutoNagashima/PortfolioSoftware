@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc6438ab35f86840827972239d23f7c, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Diamond
+    list:
+    - ID: 1
+      PRD_NAME: "\u30C0\u30A4\u30A21\u500B"
+      COST: 300
+      GET_VALUE: 1
+      BONUS_VALUE: 1
+      RES_FILE: dia_01
+    - ID: 2
+      PRD_NAME: "\u30C0\u30A4\u30A210\u500B + 2"
+      COST: 1000
+      GET_VALUE: 10
+      BONUS_VALUE: 2
+      RES_FILE: dia_02
+    - ID: 3
+      PRD_NAME: "\u30C0\u30A4\u30A225\u500B + 5"
+      COST: 2500
+      GET_VALUE: 25
+      BONUS_VALUE: 5
+      RES_FILE: dia_03
+    - ID: 4
+      PRD_NAME: "\u30C0\u30A4\u30A250\u500B + 10"
+      COST: 5000
+      GET_VALUE: 50
+      BONUS_VALUE: 10
+      RES_FILE: dia_04
+    - ID: 5
+      PRD_NAME: "\u30C0\u30A4\u30A2100\u500B + 15"
+      COST: 9800
+      GET_VALUE: 100
+      BONUS_VALUE: 15
+      RES_FILE: dia_05

@@ -1,0 +1,6 @@
+{
+	"UserLv" : 1,
+	"Stamina" : 1,
+	"Coin" : 100,
+	"Dia" : 50
+}
